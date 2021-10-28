@@ -28,11 +28,12 @@ body
 
 	font: 12px Tahoma, Arial, Helvetica, sans-serif;
 	color: #666666;
-	background:  url(images/bg.png) , linear-gradient(to right, #158CFC,  #158CFC);
-	
+	background: #158CFC url(images/bg.png);
 }
 
-
+#bg{
+	background: url(images/back.png) repeat-x top;
+}
 
 #main
 {
@@ -56,8 +57,8 @@ background: url(images/header.jpg) no-repeat center bottom;
 padding-left: 40px;
 text-align: left;
 padding-top: 20px;
-height: 10%;
-
+height: 67px;
+width: 998px;
 margin: 0 auto;
 }
 
@@ -72,18 +73,15 @@ margin: 0 auto;
 
 #logo H2 a
 {
-	font-size: 10px;
-}
-
-.containerbg{
-	background: #ADE8FC !important;
+font-size: 10px;
 }
 
 #buttons
 {
+	width: 998px;
+	height: 62px;
+	margin: 0 auto;
 	background: url(images/menu.gif) repeat-x;
-	height: 65px;
-
 }
 
 #buttons ul {
@@ -124,11 +122,9 @@ padding: 5px;
 #content_bg{
 	background: #FFFFFF;
 	padding: 5px;
-	padding-bottom: 30px;
 }
-
 .container {
-
+	width:990px; 
 	margin:0 auto;
 	font-size: 12px;
 }
@@ -265,9 +261,7 @@ padding: 5px;
 
 #footer
 {
-	background: url(images/footer.gif) repeat-x !important;
-
-	width: 100%;
+	background: url(images/footer.gif) repeat-x;
 	height: 50px;
 	margin: 0 auto;
 	font-size: 10px;
@@ -366,9 +360,3 @@ a.nivo-prevNav {
     color:#efe9d1;
     text-decoration:underline;
 }
-
-@media only screen and (max-width: 600px) {
-	.indent {
-	  padding-right: 35px;
-	}
-  }
